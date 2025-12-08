@@ -45,6 +45,40 @@ En resumen, el proyecto busca transformar un conjunto de datos clínicos en cono
     |---synthetic_heart_disease_dataset.csv #datos originales
 ```
 
+## Información de las columnas del conjunto de datos
+
+📘 Diccionario de Datos (Data Dictionary)
+
+A continuación se describen las columnas del conjunto de datos utilizado para el análisis de factores asociados a los ataques cardíacos:
+
+| **Columna**                     | **Descripción**                                                                    |
+| ------------------------------- | ---------------------------------------------------------------------------------- |
+| **Edad**                        | Edad del paciente en años.                                                         |
+| **Id**                          | Identificador único asignado a cada registro.                                      |
+| **Genero**                      | Sexo del paciente (Masculino / Femenino).                                          |
+| **Peso**                        | Peso corporal en kilogramos.                                                       |
+| **Altura**                      | Altura del paciente en centímetros.                                                |
+| **IMC**                         | Índice de Masa Corporal (calculado a partir del peso y la altura).                 |
+| **Fumador**                     | Hábito de consumo de tabaco (Nunca / Ocasional / Regular).                         |
+| **Alcohol**                     | Nivel de consumo de alcohol (Ninguno / Bajo / Moderado / Alto).                    |
+| **Actividad_física**            | Nivel general de actividad física del paciente (Sedentario / Moderado / Activo).   |
+| **Diesta** *(Dieta)*            | Calidad de la dieta (Saludable / Promedio / No saludable).                         |
+| **Nivel_Stress**                | Nivel de estrés percibido (Bajo / Medio / Alto).                                   |
+| **Hypertension**                | Indica si el paciente presenta hipertensión (Sí / No).                             |
+| **Diabetes**                    | Indica si el paciente padece diabetes (Sí / No).                                   |
+| **Hyperlipidemia**              | Presencia de niveles elevados de lípidos en sangre (Sí / No).                      |
+| **Historial_familiar**          | Presencia de antecedentes familiares de enfermedades cardíacas.                    |
+| **Antecedentes_ataque_corazon** | Indica si el paciente ha sufrido previamente un ataque cardíaco.                   |
+| **Systolic_BP**                 | Presión arterial sistólica (mmHg).                                                 |
+| **Diastolic_BP**                | Presión arterial diastólica (mmHg).                                                |
+| **Pulsaciones**                 | Frecuencia cardíaca (latidos por minuto).                                          |
+| **Azucar_sangre**               | Nivel de glucosa en sangre.                                                        |
+| **Colesterol**                  | Nivel total de colesterol en sangre.                                               |
+| **Ataque_corazón**              | Variable objetivo que indica si el paciente presenta un ataque cardíaco (Sí / No). |
+
+
+
+
 ## Recap proyecto
 
 
