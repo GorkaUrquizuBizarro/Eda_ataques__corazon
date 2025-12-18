@@ -43,6 +43,10 @@ En resumen, el proyecto busca transformar un conjunto de datos clínicos en cono
 ```bash
 |--- Datos
     |---synthetic_heart_disease_dataset.csv #datos originales
+|--- Excel
+    |---Proyecto_ataques_corazon_datos_dashboard.xlsx #dashboard
+    |---Proyecto_ataques_corazon_v3.xlsb.xlsx #datos transformados y limpiados
+    |---Proyecto_ataques_corazon_v3.xlsb.csv # archivo con datos significativos para la construcción del dashboard
 ```
 
 ## Información de las columnas del conjunto de datos
@@ -62,7 +66,7 @@ A continuación se describen las columnas del conjunto de datos utilizado para e
 | **Fumador**                     | Hábito de consumo de tabaco (Nunca / Ocasional / Regular).                         |
 | **Alcohol**                     | Nivel de consumo de alcohol (Ninguno / Bajo / Moderado / Alto).                    |
 | **Actividad_física**            | Nivel general de actividad física del paciente (Sedentario / Moderado / Activo).   |
-| **Diesta** *(Dieta)*            | Calidad de la dieta (Saludable / Promedio / No saludable).                         |
+| **Dieta**            | Calidad de la dieta (Saludable / Promedio / No saludable).                         |
 | **Nivel_Stress**                | Nivel de estrés percibido (Bajo / Medio / Alto).                                   |
 | **Hypertension**                | Indica si el paciente presenta hipertensión (Sí / No).                             |
 | **Diabetes**                    | Indica si el paciente padece diabetes (Sí / No).                                   |
@@ -110,45 +114,7 @@ A continuación se describen las columnas del conjunto de datos utilizado para e
 ### Día 7 de proyecto.
 - Realización de las conclusiones del proyecto en el Readme.
 
-Conclusiones del proyecto:
-
-Interpretación:
-
-Las variables más relacionadas con enfermedad cardíaca son:
-
-Hipertensión (0,4047)
-
-Edad (0,380)
-
-Colesterol total (0,374)
-
-Diabetes (0,338)
-
-Ataque cardíaco previo (0,243)
-
-Variables como género, peso, IMC, fumar o dieta tienen correlaciones muy bajas, lo que indica que en este conjunto de datos no tienen una relación lineal fuerte con la enfermedad cardíaca.
-
-3. Otras observaciones
-
-La hipertensión se correlaciona poco con los hábitos de vida, pero mucho con la enfermedad cardíaca.
-
-La edad es el factor demográfico más importante.
-
-Diabetes, colesterol y antecedentes de ataque cardíaco son indicadores clínicos fuertes.
-
-Algunas correlaciones bajas pueden deberse a limitaciones del dataset o efectos no lineales.
-
-4. Uso práctico
-
-Para predecir enfermedad cardíaca, se podrían priorizar estas variables:
-
-Edad, Hipertensión, Diabetes, Colesterol y Ataque cardíaco previo
-
-Variables como género, peso, IMC, dieta o estrés podrían tener menor peso en modelos lineales.
-
-Tal vez se necesiten modelos no lineales para capturar relaciones más complejas.
-
-## Conclusiones del Análisis de Correlación sobre Enfermedad Cardíaca
+## Conclusiones del proyecto:
 
 1. **Factores más relacionados con la enfermedad cardíaca**:
 
@@ -176,3 +142,4 @@ Tal vez se necesiten modelos no lineales para capturar relaciones más complejas
    * Algunas correlaciones sorprendentemente bajas (como tabaquismo y enfermedad cardíaca) podrían deberse a limitaciones en la muestra o el tamaño del dataset.
 
 En resumen, el análisis resalta la importancia de factores clínicos sobre los hábitos de vida en la predicción de enfermedad cardíaca dentro de este conjunto de datos.
+
